@@ -1,7 +1,6 @@
 // Question 1
 let char1 = prompt("Enter a character:");
 
-// Get ASCII code of the character
 let ascii = char1.charCodeAt(0);
 
 if (ascii >= 48 && ascii <= 57) {
@@ -78,6 +77,7 @@ if (hour < 18) {
     greeting = "Good evening";
 }
 console.log(greeting);
+
 
 
 
