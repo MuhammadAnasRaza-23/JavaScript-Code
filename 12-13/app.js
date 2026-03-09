@@ -46,7 +46,7 @@ if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u'
 }
 
 // Question 5
-const correctPassword = "password123"; // Store correct password
+const correctPassword = "password123"; 
 let userPassword = prompt("Enter your password:");
 
 if (!userPassword) {
@@ -77,6 +77,7 @@ if (hour < 18) {
     greeting = "Good evening";
 }
 console.log(greeting);
+
 
 
 
