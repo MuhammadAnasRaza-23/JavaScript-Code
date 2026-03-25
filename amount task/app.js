@@ -54,10 +54,43 @@ document.writeln(
          <tr>
             <td>${item1 || ''}</td>
             <td>${price1 || ''}</td>
-            <td rowspan="5">${total}</td>
-            <td rowspan="5">${disc.toFixed(2)}</td>
-            <td rowspan="5">${final.toFixed(2)}</td>
+            <td>${total}</td>
+            <td>${disc.toFixed(2)}</td>
+            <td>${final.toFixed(2)}</td>
          </tr>
+
+         <tr>
+            <td>${item2 || ''}</td>
+            <td>${price2 || ''}</td>
+            <td>${total}</td>
+            <td>${disc.toFixed(2)}</td>
+            <td>${final.toFixed(2)}</td>
+         </tr>
+
+         <tr>
+            <td>${item3 || ''}</td>
+            <td>${price3 || ''}</td>
+            <td>${total}</td>
+            <td>${disc.toFixed(2)}</td>
+            <td>${final.toFixed(2)}</td>
+         </tr>
+
+         <tr>
+            <td>${item4 || ''}</td>
+            <td>${price4 || ''}</td>
+            <td>${total}</td>
+            <td>${disc.toFixed(2)}</td>
+            <td>${final.toFixed(2)}</td>
+         </tr>
+
+         <tr>
+            <td>${item5 || ''}</td>
+            <td>${price5 || ''}</td>
+            <td>${total}</td>
+            <td>${disc.toFixed(2)}</td>
+            <td>${final.toFixed(2)}</td>
+         </tr>
+
     </table>
 `
 )
